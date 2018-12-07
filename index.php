@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -417,7 +417,6 @@
                                     <h4 class="header-title mb-0">Overview</h4>
                                     <select class="custome-select border-0 pr-3">
                                         <option selected>Last 24 Hours</option>
-                                        <option value="0">01 July 2018</option>
                                     </select>
                                 </div>
                                 <div id="verview-shart"></div>
