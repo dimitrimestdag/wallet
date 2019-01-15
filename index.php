@@ -518,33 +518,9 @@
                 <!-- market value area end -->
                 <!-- row area start -->
                 <div class="row">
-                    <!-- Live Crypto Price area start -->
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="header-title">Live Crypto Price</h4>
-                                <div class="cripto-live mt-5">
-                                    <ul>
-                                        <li>
-                                            <div class="icon b">b</div> Bitcoin<span><i class="fa fa-long-arrow-up"></i>$876909.00</span></li>
-                                        <li>
-                                            <div class="icon l">l</div> Litecoin<span><i class="fa fa-long-arrow-up"></i>$29780.00</span></li>
-                                        <li>
-                                            <div class="icon d">d</div> Dashcoin<span><i class="fa fa-long-arrow-up"></i>$13276.00</span></li>
-                                        <li>
-                                            <div class="icon b">b</div> Bitcoindash<span><i class="fa fa-long-arrow-down"></i>$5684.890</span></li>
-                                        <li>
-                                            <div class="icon e">e</div> Euthorium<span><i class="fa fa-long-arrow-down"></i>$3890.98</span></li>
-                                        <li>
-                                            <div class="icon t">b</div> Tcoin<span><i class="fa fa-long-arrow-up"></i>$750.789</span></li>
-                                        <li>
-                                            <div class="icon b">b</div> Bitcoin<span><i class="fa fa-long-arrow-up"></i>$325.037</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Live Crypto Price area end -->
+                <?php
+                    include 'includes/livecrypto.php';
+                ?>
                     <!-- trading history area start -->
                     <div class="col-lg-8 mt-sm-30 mt-xs-30">
                         <div class="card">
